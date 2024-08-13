@@ -1,0 +1,112 @@
+*{
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #3e4764;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 70%;
+  color: white;
+  padding-left: 100px; 
+  padding-right: 100px; 
+  padding-top: 30px;
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 8px;
+}
+
+.logo {
+  font-size: 2.2em;
+  color: white;
+  text-decoration: none;
+}
+
+#navigation {
+  margin-top: 10px;
+}
+
+.nav-links {
+  font-size: 1.2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.timer-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 150px; /* 헤더와 타이머 사이 간격 */
+  width: 300px; 
+  height: 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-button {
+  margin-bottom: 10px;
+}
+
+.b {
+  padding: 10px 20px;
+  margin-right: 10px; 
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff; 
+  border-radius: 20px;
+}
+
+.b:last-child {
+  margin-right: 0;
+}
+
+.time-display {
+  font-size: 8.5rem;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.b1 {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color:#3e4764;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.p {
+  font-size: 17px;
+  color:#ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: -18px;
+  width: 100%;
+  background-color: #3e4764;
+}
